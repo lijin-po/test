@@ -1,0 +1,4 @@
+[32mINFO    [0m test.py:test.py:18 单击账号密码登录
+[32mINFO    [0m test.py:test.py:21 输入账号：13592386651
+[32mINFO    [0m test.py:test.py:23 输入密码：981007.li
+[32mINFO    [0m test.py:test.py:25 单击登录

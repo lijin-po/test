@@ -1,0 +1,82 @@
+{
+  "uid" : "8cffbc154e7d610f",
+  "name" : "test_1[c6e19cca12b8052cdac98f143706112c-qwertui]",
+  "fullName" : "test#test_1[c6e19cca12b8052cdac98f143706112c-qwertui]",
+  "historyId" : "5bc11d0f38f7f17e9ef518e68029dc3c",
+  "time" : {
+    "start" : 1567168119861,
+    "stop" : 1567168120027,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c5b83b917ae5c08",
+      "name" : "log",
+      "source" : "7c5b83b917ae5c08.txt",
+      "type" : "text/plain",
+      "size" : 118
+    }, {
+      "uid" : "bf66c236e04a2ea6",
+      "name" : "stderr",
+      "source" : "bf66c236e04a2ea6.txt",
+      "type" : "text/plain",
+      "size" : 124
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "李金钋"
+  }, {
+    "name" : "thread",
+    "value" : "16576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "x",
+    "value" : "'c6e19cca12b8052cdac98f143706112c'"
+  }, {
+    "name" : "y",
+    "value" : "'qwertui'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cffbc154e7d610f.json",
+  "parameterValues" : [ "'c6e19cca12b8052cdac98f143706112c'", "'qwertui'" ]
+}

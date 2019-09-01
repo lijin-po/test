@@ -1,0 +1,105 @@
+{
+  "uid" : "d18a5a4709f97e11",
+  "name" : "test_1",
+  "fullName" : "test#test_1",
+  "historyId" : "2c1f52ef9d3741e7c27dca2de49e9c11",
+  "time" : {
+    "start" : 1566790045404,
+    "stop" : 1566790047856,
+    "duration" : 2452
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '163网易免费邮--中文邮箱第一品牌' == '网易邮箱6.0版'\n  - 163网易免费邮--中文邮箱第一品牌\n  + 网易邮箱6.0版",
+  "statusTrace" : "dr = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8551c2996c945bfb9ba04ff98e7837b3\")>\n\n    def test_1(dr):\n        sleep(2)\n        dr.find_element_by_id('switchAccountLogin').click()\n        log.info('单击账号密码登录')\n        dr.switch_to.frame(dr.find_element_by_xpath('//*[@frameborder=\"0\" and @scrolling=\"no\"]'))\n        dr.find_element_by_name('email').send_keys('13592386651')\n        log.info('输入账号：13592386651')\n        dr.find_element_by_name('password').send_keys('981007.li')\n        log.info('输入密码：981007.li')\n        dr.find_element_by_id('dologin').click()\n        log.info('单击登录')\n        print(dr.title)\n>       assert dr.title=='网易邮箱6.0版'\nE       AssertionError: assert '163网易免费邮--中文邮箱第一品牌' == '网易邮箱6.0版'\nE         - 163网易免费邮--中文邮箱第一品牌\nE         + 网易邮箱6.0版\n\ntest.py:27: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dr",
+    "time" : {
+      "start" : 1566790035874,
+      "stop" : 1566790040234,
+      "duration" : 4360
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '163网易免费邮--中文邮箱第一品牌' == '网易邮箱6.0版'\n  - 163网易免费邮--中文邮箱第一品牌\n  + 网易邮箱6.0版",
+    "statusTrace" : "dr = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8551c2996c945bfb9ba04ff98e7837b3\")>\n\n    def test_1(dr):\n        sleep(2)\n        dr.find_element_by_id('switchAccountLogin').click()\n        log.info('单击账号密码登录')\n        dr.switch_to.frame(dr.find_element_by_xpath('//*[@frameborder=\"0\" and @scrolling=\"no\"]'))\n        dr.find_element_by_name('email').send_keys('13592386651')\n        log.info('输入账号：13592386651')\n        dr.find_element_by_name('password').send_keys('981007.li')\n        log.info('输入密码：981007.li')\n        dr.find_element_by_id('dologin').click()\n        log.info('单击登录')\n        print(dr.title)\n>       assert dr.title=='网易邮箱6.0版'\nE       AssertionError: assert '163网易免费邮--中文邮箱第一品牌' == '网易邮箱6.0版'\nE         - 163网易免费邮--中文邮箱第一品牌\nE         + 网易邮箱6.0版\n\ntest.py:27: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4a56af5c72989f81",
+      "name" : "log",
+      "source" : "4a56af5c72989f81.txt",
+      "type" : "text/plain",
+      "size" : 237
+    }, {
+      "uid" : "40eb9aa17b6a0b8f",
+      "name" : "stdout",
+      "source" : "40eb9aa17b6a0b8f.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "b3f1f10e34ca60b0",
+      "name" : "stderr",
+      "source" : "b3f1f10e34ca60b0.txt",
+      "type" : "text/plain",
+      "size" : 258
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "李金钋"
+  }, {
+    "name" : "thread",
+    "value" : "15520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d18a5a4709f97e11.json",
+  "parameterValues" : [ ]
+}

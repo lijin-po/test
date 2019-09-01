@@ -1,0 +1,1 @@
+[32mINFO    [0m test.py:test.py:13 输入的参数为："key":f"c6e19cca12b8052cdac98f143706112c","chars":f"聚"

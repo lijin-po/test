@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "李金钋",
+    "children" : [ {
+      "name" : "15520-MainThread",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "33cabb6d2239856b",
+        "parentUid" : "e1aec375612bd84b3ead8d9d8013b0a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566790040236,
+          "stop" : 1566790045377,
+          "duration" : 5141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_2",
+        "uid" : "6638241e837d7078",
+        "parentUid" : "e1aec375612bd84b3ead8d9d8013b0a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1566790047934,
+          "stop" : 1566790057610,
+          "duration" : 9676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1",
+        "uid" : "d18a5a4709f97e11",
+        "parentUid" : "e1aec375612bd84b3ead8d9d8013b0a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1566790045404,
+          "stop" : 1566790047856,
+          "duration" : 2452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1aec375612bd84b3ead8d9d8013b0a1"
+    } ],
+    "uid" : "7cfb2834b5d18c015fc5bb7fe875010d"
+  } ]
+}

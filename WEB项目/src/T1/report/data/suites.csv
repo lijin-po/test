@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Aug 26 11:27:25 CST 2019","Mon Aug 26 11:27:27 CST 2019","2452","","test","","","","test_1",""
+"passed","Mon Aug 26 11:27:27 CST 2019","Mon Aug 26 11:27:37 CST 2019","9676","","test","","","","test_2",""
+"passed","Mon Aug 26 11:27:20 CST 2019","Mon Aug 26 11:27:25 CST 2019","5141","","test","","","","test",""

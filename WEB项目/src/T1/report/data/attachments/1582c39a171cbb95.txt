@@ -1,0 +1,5 @@
+[32mINFO    [0m test.py:test.py:32 单击写信
+[32mINFO    [0m test.py:test.py:34 输入收件人
+[32mINFO    [0m test.py:test.py:36 输入主题
+[32mINFO    [0m test.py:test.py:39 输入正文
+[32mINFO    [0m test.py:test.py:42 单击发送

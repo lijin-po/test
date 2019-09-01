@@ -1,0 +1,60 @@
+{
+  "2c1f52ef9d3741e7c27dca2de49e9c11" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d18a5a4709f97e11",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '163网易免费邮--中文邮箱第一品牌' == '网易邮箱6.0版'\n  - 163网易免费邮--中文邮箱第一品牌\n  + 网易邮箱6.0版",
+      "time" : {
+        "start" : 1566790045404,
+        "stop" : 1566790047856,
+        "duration" : 2452
+      }
+    } ]
+  },
+  "de0313f7e11b3d8a9aee663c7e8295cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6638241e837d7078",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566790047934,
+        "stop" : 1566790057610,
+        "duration" : 9676
+      }
+    } ]
+  },
+  "76122e23133a3f54ef9292d6be9d6e71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33cabb6d2239856b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1566790040236,
+        "stop" : 1566790045377,
+        "duration" : 5141
+      }
+    } ]
+  }
+}

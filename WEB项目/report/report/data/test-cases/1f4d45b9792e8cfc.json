@@ -1,0 +1,82 @@
+{
+  "uid" : "1f4d45b9792e8cfc",
+  "name" : "test_1[c6e19cca12b8052cdac98f143706112-怎么才能凑够三十二个字符呢，这样不就好了嘛，你随意写一些补救够了]",
+  "fullName" : "test#test_1[c6e19cca12b8052cdac98f143706112-怎么才能凑够三十二个字符呢，这样不就好了嘛，你随意写一些补救够了]",
+  "historyId" : "e7b1eb3b9ac69d0b710ae8f8b0498139",
+  "time" : {
+    "start" : 1567168120791,
+    "stop" : 1567168120938,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3356b2e06e94ed3f",
+      "name" : "log",
+      "source" : "3356b2e06e94ed3f.txt",
+      "type" : "text/plain",
+      "size" : 206
+    }, {
+      "uid" : "604dbe02771e7aa6",
+      "name" : "stderr",
+      "source" : "604dbe02771e7aa6.txt",
+      "type" : "text/plain",
+      "size" : 212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "李金钋"
+  }, {
+    "name" : "thread",
+    "value" : "16576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "x",
+    "value" : "'c6e19cca12b8052cdac98f143706112'"
+  }, {
+    "name" : "y",
+    "value" : "'怎么才能凑够三十二个字符呢，这样不就好了嘛，你随意写一些补救够了'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f4d45b9792e8cfc.json",
+  "parameterValues" : [ "'c6e19cca12b8052cdac98f143706112'", "'怎么才能凑够三十二个字符呢，这样不就好了嘛，你随意写一些补救够了'" ]
+}
